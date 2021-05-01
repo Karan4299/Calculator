@@ -216,8 +216,13 @@
      align-content: center;
      
 }
+a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
 
-.first{
+
+#keypad .first a{
     color: green;
 }
 
@@ -227,6 +232,8 @@
      /* border-radius: 5px; */
     background-color: rgb(236, 154, 2);
 }
+
+
 
 #zero{
     grid-column-start: 1;
